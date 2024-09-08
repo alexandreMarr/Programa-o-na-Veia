@@ -17,4 +17,4 @@ Este projeto é uma plataforma de cursos online que permite aos usuários pesqui
 ## Como Executar
 1. **Clone o repositório:**
    ```bash
-   git clone https://seu-repositorio.git
+   git clone https://github.com/alexandreMarr/Programa-o-na-Veia
