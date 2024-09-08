@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="favicon.ico">
+    <title>Programação na Veia</title>
+</head>
+<body>
+    
+    <header>
+        <div class="titulo">
+            <img class="img-logo" src="logo.png" alt="logo">
+            <h1>Programação na Veia</h1>
+            <p class="sub-titulo">Plataforma de Cursos de Programação onliine</p>
+        </div>
+        <div class="search-container">
+            <input type="text" id="busca" placeholder="Pesquisar cursos">
+            <button id="pesquisar" onclick="pesquisar()">Pesquisar</button>
+        </div>
+    </header>
+
+    <main>
+        <div class="cursos">
+            <div class="container" id="cards-cursos"></div>
+        </div>
+    </main>
+
+    <!-- Modal -->
+    <div id="curso-modal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <div id="curso-details">
+                <div class="modal-curso">
+                    <img src="" alt="Imagem do Curso" id="curso-img">
+                    <h1 id="curso-title"></h1>
+                </div>
+                <div class="modal-details">
+                    <p><strong>Carga Horária:</strong> <span id="curso-carga-horaria"></span></p>
+                    <p id="curso-descricao"></p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p>©2024 - Programação na Veia. Todos os direitos reservados</p>
+        <p>Entre em contato pelo email: marreiros.alexandresouza@gmail.com</p>
+    </footer>
+
+    <script src="base_dados.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
